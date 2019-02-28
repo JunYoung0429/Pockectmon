@@ -1,0 +1,44 @@
+body{
+    background-color:  rgba(41, 83, 74, 0.76);
+}
+
+h1{
+    color:rgb(60, 236, 207);
+    text-align: center;
+    padding: 20px;
+    font-size: 50px;
+    font-family: 'Nanum Pen Script', cursive;
+}
+
+.sub dl{
+    width: 30%;
+    height: 250px;
+    background: rgba(154, 170, 165, 0.979);
+    text-align: center;
+    border-radius: 50px;
+    margin-bottom: -3%;
+    margin-left: 0%;
+}
+.sub .img{
+    width: 100px;
+    border-radius: 50px;
+    padding-top: 0px;
+}
+#name{
+    color:rgb(216, 204, 29);
+    font-size: 40px;
+}
+dd{
+    color:rgba(228, 218, 218, 0.979);
+    margin: 0;
+}
+@media (min-width:0px){
+    dl:nth-child(even){
+        position: relative;;
+        right: -55%;
+    }
+    dl:nth-child(odd){
+        position: relative;
+        left: 19%;
+    }
+}
